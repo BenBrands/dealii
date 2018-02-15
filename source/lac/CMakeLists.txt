@@ -135,6 +135,7 @@ IF(DEAL_II_WITH_TRILINOS)
 
   SET(_inst
     ${_inst}
+    scalapack.inst.in
     trilinos_sparse_matrix.inst.in
     trilinos_vector.inst.in
   )
